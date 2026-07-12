@@ -7,6 +7,7 @@ import Heading from "../../components/Heading";
 import DeleteConfirm from "../../components/DeleteConfirm";
 import CustomButton from "../../components/CustomButton";
 import Loading from "../../components/Loading";
+//in react we are import all required for the admins and then we can move to solve 
 const Admin = () => {
   const [data, setData] = useState({
     firstName: "",
